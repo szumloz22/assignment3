@@ -1,0 +1,48 @@
+body {
+    color: rgb(89, 82, 169);
+    background-color: rgba(208, 192, 157, 0.51);
+    font-family: "helvetica";
+}
+
+.red-span {
+    color: red;
+}
+
+.centered {
+    padding: 10px 10px 10px 10px;
+    border: 3px dashed;
+    margin: 10px auto 10px auto;
+    width: 80%;
+}
+
+body ol, body ul {
+    background-color: lavender
+}
+
+#content p a {
+    color: mediumpurple;
+    font-family: cursive;
+}
+
+h1,
+h2 {
+    color: mediumpurple;
+    font-family: cursive;
+}
+
+.nazareth-purple {
+    color: rgb(89, 82, 169);
+}
+
+.nazareth-font-big {
+    font-size: 38px;
+}
+
+.nazareth-font-heavy {
+    font-weight: 900;
+}
+
+li {
+
+    color: mediumpurple;
+}
