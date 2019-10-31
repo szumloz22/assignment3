@@ -42,7 +42,24 @@ h2 {
     font-weight: 900;
 }
 
+.container {
+        
+    height: 700px;
+    width: 700px;
+    
+    flex-wrap:wrap;
+}
+
 li {
 
     color: mediumpurple;
+}
+
+.flexboxmasterswitch {
+    
+    display: flex;
+    
+    width: 700px;
+    
+    flex-direction: row;
 }
