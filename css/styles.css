@@ -16,6 +16,7 @@ body {
 }
 
 body ol, body ul {
+    display: flex;
     background-color: lavender
 }
 
@@ -61,5 +62,5 @@ li {
     
     width: 700px;
     
-    flex-direction: row;
+    flex-direction: column;
 }
