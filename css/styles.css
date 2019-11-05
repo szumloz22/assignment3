@@ -60,7 +60,13 @@ li {
     
     display: flex;
     
-    width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     
-    flex-direction: column;
+    width: 300px;
+    height: 700px;
+    
+    flex-direction: column
+
 }
