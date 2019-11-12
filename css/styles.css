@@ -42,17 +42,16 @@ h2 {
     font-weight: 900;
 }
 
-.container {
-
-    height: 700px;
-    width: 700px;
-
-    flex-wrap: wrap;
-}
-
 li {
 
     color: mediumpurple;
+}
+
+main {
+    
+display: flex;
+flex: 1;
+flex-direction: column;
 }
 
 .flexboxmasterswitch {
@@ -66,9 +65,15 @@ li {
     width: 1000px;
     height: 1000px;
 
-    flex-direction: column
 }
 
+.duocolumn__container {
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: row;
+}
+    
 body header {
     display: flex;
     align-items: center;
